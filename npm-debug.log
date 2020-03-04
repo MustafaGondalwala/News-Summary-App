@@ -1,0 +1,148 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'react-responsive-embednpm',
+1 verbose cli   'i' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData react-responsive-embednpm
+8 silly fetchPackageMetaData i
+9 silly fetchNamedPackageData react-responsive-embednpm
+10 silly mapToRegistry name react-responsive-embednpm
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry https://registry.npmjs.org/
+13 silly mapToRegistry uri https://registry.npmjs.org/react-responsive-embednpm
+14 silly fetchNamedPackageData i
+15 silly mapToRegistry name i
+16 silly mapToRegistry using default registry
+17 silly mapToRegistry registry https://registry.npmjs.org/
+18 silly mapToRegistry uri https://registry.npmjs.org/i
+19 verbose request uri https://registry.npmjs.org/react-responsive-embednpm
+20 verbose request no auth needed
+21 info attempt registry request try #1 at 1:27:50 PM
+22 verbose request id fba77f4044492151
+23 http request GET https://registry.npmjs.org/react-responsive-embednpm
+24 verbose request uri https://registry.npmjs.org/i
+25 verbose request no auth needed
+26 info attempt registry request try #1 at 1:27:51 PM
+27 verbose etag W/"074996232f6f4b82b6f3dd7aeaf0fd4d"
+28 verbose lastModified Sun, 27 May 2018 04:18:32 GMT
+29 http request GET https://registry.npmjs.org/i
+30 http 304 https://registry.npmjs.org/i
+31 verbose headers { date: 'Fri, 13 Jul 2018 07:57:52 GMT',
+31 verbose headers   connection: 'keep-alive',
+31 verbose headers   'set-cookie':
+31 verbose headers    [ '__cfduid=d88d0fac550cb58eb31cf2b9c58cbe9fe1531468672; expires=Sat, 13-Jul-19 07:57:52 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+31 verbose headers   'cache-control': 'max-age=300',
+31 verbose headers   'cf-cache-status': 'HIT',
+31 verbose headers   'cf-ray': '439a33861bb58aa9-BOM',
+31 verbose headers   etag: '"074996232f6f4b82b6f3dd7aeaf0fd4d"',
+31 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+31 verbose headers   'last-modified': 'Sun, 27 May 2018 04:18:32 GMT',
+31 verbose headers   vary: 'accept-encoding, accept',
+31 verbose headers   server: 'cloudflare' }
+32 silly get cb [ 304,
+32 silly get   { date: 'Fri, 13 Jul 2018 07:57:52 GMT',
+32 silly get     connection: 'keep-alive',
+32 silly get     'set-cookie':
+32 silly get      [ '__cfduid=d88d0fac550cb58eb31cf2b9c58cbe9fe1531468672; expires=Sat, 13-Jul-19 07:57:52 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+32 silly get     'cache-control': 'max-age=300',
+32 silly get     'cf-cache-status': 'HIT',
+32 silly get     'cf-ray': '439a33861bb58aa9-BOM',
+32 silly get     etag: '"074996232f6f4b82b6f3dd7aeaf0fd4d"',
+32 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+32 silly get     'last-modified': 'Sun, 27 May 2018 04:18:32 GMT',
+32 silly get     vary: 'accept-encoding, accept',
+32 silly get     server: 'cloudflare' } ]
+33 verbose etag https://registry.npmjs.org/i from cache
+34 verbose get saving i to /home/mustafa/.npm/registry.npmjs.org/i/.cache.json
+35 http 404 https://registry.npmjs.org/react-responsive-embednpm
+36 verbose headers { date: 'Fri, 13 Jul 2018 07:57:54 GMT',
+36 verbose headers   'content-type': 'application/json',
+36 verbose headers   'content-length': '21',
+36 verbose headers   connection: 'keep-alive',
+36 verbose headers   'set-cookie':
+36 verbose headers    [ '__cfduid=da0e49508ed2b19955efd725e862094a71531468672; expires=Sat, 13-Jul-19 07:57:52 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+36 verbose headers   'cache-control': 'max-age=300',
+36 verbose headers   'cf-cache-status': 'MISS',
+36 verbose headers   'cf-ray': '439a33862dde8a91-BOM',
+36 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+36 verbose headers   'npm-notice': 'Due to a recent security incident, all user tokens have been invalidated. Please see https://status.npmjs.org/incidents/dn7c1fgrr7ng for more details. To generate a new token, visit https://www.npmjs.com/settings/~/tokens or run "npm login".',
+36 verbose headers   vary: 'accept-encoding, accept',
+36 verbose headers   server: 'cloudflare' }
+37 warn notice Due to a recent security incident, all user tokens have been invalidated. Please see https://status.npmjs.org/incidents/dn7c1fgrr7ng for more details. To generate a new token, visit https://www.npmjs.com/settings/~/tokens or run "npm login".
+38 silly get cb [ 404,
+38 silly get   { date: 'Fri, 13 Jul 2018 07:57:54 GMT',
+38 silly get     'content-type': 'application/json',
+38 silly get     'content-length': '21',
+38 silly get     connection: 'keep-alive',
+38 silly get     'set-cookie':
+38 silly get      [ '__cfduid=da0e49508ed2b19955efd725e862094a71531468672; expires=Sat, 13-Jul-19 07:57:52 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+38 silly get     'cache-control': 'max-age=300',
+38 silly get     'cf-cache-status': 'MISS',
+38 silly get     'cf-ray': '439a33862dde8a91-BOM',
+38 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+38 silly get     'npm-notice': 'Due to a recent security incident, all user tokens have been invalidated. Please see https://status.npmjs.org/incidents/dn7c1fgrr7ng for more details. To generate a new token, visit https://www.npmjs.com/settings/~/tokens or run "npm login".',
+38 silly get     vary: 'accept-encoding, accept',
+38 silly get     server: 'cloudflare' } ]
+39 silly fetchPackageMetaData Error: Not found : react-responsive-embednpm
+39 silly fetchPackageMetaData     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+39 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+39 silly fetchPackageMetaData     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+39 silly fetchPackageMetaData     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+39 silly fetchPackageMetaData     at emitTwo (events.js:126:13)
+39 silly fetchPackageMetaData     at Request.emit (events.js:214:7)
+39 silly fetchPackageMetaData     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+39 silly fetchPackageMetaData     at emitOne (events.js:121:20)
+39 silly fetchPackageMetaData     at Request.emit (events.js:211:7)
+39 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
+39 silly fetchPackageMetaData  error for react-responsive-embednpm { Error: Not found : react-responsive-embednpm
+39 silly fetchPackageMetaData     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+39 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+39 silly fetchPackageMetaData     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+39 silly fetchPackageMetaData     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+39 silly fetchPackageMetaData     at emitTwo (events.js:126:13)
+39 silly fetchPackageMetaData     at Request.emit (events.js:214:7)
+39 silly fetchPackageMetaData     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+39 silly fetchPackageMetaData     at emitOne (events.js:121:20)
+39 silly fetchPackageMetaData     at Request.emit (events.js:211:7)
+39 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
+39 silly fetchPackageMetaData   pkgid: 'react-responsive-embednpm',
+39 silly fetchPackageMetaData   statusCode: 404,
+39 silly fetchPackageMetaData   code: 'E404' }
+40 silly rollbackFailedOptional Starting
+41 silly rollbackFailedOptional Finishing
+42 silly runTopLevelLifecycles Starting
+43 silly runTopLevelLifecycles Finishing
+44 silly install printInstalled
+45 verbose stack Error: Not found : react-responsive-embednpm
+45 verbose stack     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+45 verbose stack     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+45 verbose stack     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+45 verbose stack     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+45 verbose stack     at emitTwo (events.js:126:13)
+45 verbose stack     at Request.emit (events.js:214:7)
+45 verbose stack     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+45 verbose stack     at emitOne (events.js:121:20)
+45 verbose stack     at Request.emit (events.js:211:7)
+45 verbose stack     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
+46 verbose statusCode 404
+47 verbose pkgid react-responsive-embednpm
+48 verbose cwd /home/mustafa/ProReactJs/news_app
+49 error Linux 4.15.0-23-generic
+50 error argv "/usr/bin/node" "/usr/bin/npm" "install" "--save" "react-responsive-embednpm" "i"
+51 error node v8.10.0
+52 error npm  v3.5.2
+53 error code E404
+54 error 404 Not found : react-responsive-embednpm
+55 error 404
+56 error 404 'react-responsive-embednpm' is not in the npm registry.
+57 error 404 You should bug the author to publish it (or use the name yourself!)
+58 error 404 Note that you can also install from a
+59 error 404 tarball, folder, http url, or git url.
+60 verbose exit [ 1, true ]
