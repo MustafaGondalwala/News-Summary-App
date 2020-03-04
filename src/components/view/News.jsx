@@ -6,7 +6,7 @@ const News = (props) => {
     target="_blank">
 				<Image size="big" src={props.data.urlToImage}/>
 			<Card.Content>
-				<h2>{props.data.title.trim()|safe}</h2>
+				<h2>{props.data.title.trim()}</h2>
 			</Card.Content>
 			{ props.data.description && (
 				<Card.Content>
