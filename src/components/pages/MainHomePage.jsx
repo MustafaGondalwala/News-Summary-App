@@ -35,10 +35,9 @@ export default class MainHomePage extends Component {
 	getNews = () => {
 		var query;
 		if(this.props.match.path.split("/")[2])
-			 query = "https://m-app-ml-api.herokuapp.com/get/"+this.props.match.path.split("/")[2]
+			 query = "https://django-ml-backend.herokuapp.com/api/news-summary/get/"+this.props.match.path.split("/")[2]
 		else
-			 query = "https://m-app-ml-api.herokuapp.com/get"
-
+			 query = "https://django-ml-backend.herokuapp.com/api/news-summary/get"
 
 		
 		this.setState({loading:true})
@@ -49,12 +48,16 @@ export default class MainHomePage extends Component {
 			.catch(err=>{
 				console.log("Error Occur ",err)
 			})
+		const scrape_url = "https://django-ml-backend.herokuapp.com/api/news-summary/scrape"
+		axios({
+			"url":scrape_url
+		})
 	}
 
 	render() {
 		return (
-			<Container loading={this.state.loading}>
-				<Segment.Group  raised>
+			<Container>
+				<Segment.Group loading={this.state.loading} raised>
 					<Segment>
 						<h1>{this.state.type} </h1>
 					</Segment>
